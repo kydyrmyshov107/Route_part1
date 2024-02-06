@@ -1,0 +1,46 @@
+.Header {
+  display: flex;
+
+  .content {
+    // display: flex;
+    // justify-content: space-around;
+    color: white;
+    // background-color: rgb(0, 140, 168);
+
+    .logo {
+      color: white;
+    }
+    nav {
+      // display: flex;
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+        text-decoration: none;
+        list-style: none;
+
+        .li {
+          // border: 2px solid black;
+          font-size: 25px;
+      font-family: "Montserrat", sans-serif;
+
+
+          a{
+                list-style: none;
+          text-decoration: none;
+          }
+      
+          .link {
+            color: rgb(0, 0, 0);
+
+            &.active {
+              color: rgb(51, 0, 255);
+            }
+          }
+        }
+      }
+    }
+  }
+}

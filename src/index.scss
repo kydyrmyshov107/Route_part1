@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+// html {
+//   background: linear-gradient(85deg, rgb(0, 0, 0), #507bfb, #355084, #e6e3e3);
+//   background-size: 400% 400%;
+//   animation: gradientAnimation 5s infinite;
+//   font-family: "Arial", sans-serif;
+// }
+// @keyframes gradientAnimation {
+//   0% {
+//     background-position: 0% 50%;
+//   }
+//   25% {
+//     background-position: 25% 50%;
+//   }
+//   50% {
+//     background-position: 100% 50%;
+//   }
+//   75% {
+//     background-position: 100% 50%;
+//   }
+//   100% {
+//     background-position: 0% 50%;
+//   }
+// }
