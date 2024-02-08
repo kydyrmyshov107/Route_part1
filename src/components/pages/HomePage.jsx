@@ -4,8 +4,8 @@ import scss from "./HomePage.module.scss";
 import Modal from "./Modal/Modal";
 
 const url =
-  // "https://api.elchocrud.pro/api/v1/238bd97b8694c28f5621101addb1778b/newmonitor";
-  "https://api.elchocrud.pro/api/v1/ea9418e6716598b8d7a84250b6c55cc3/editmonitor";
+  "https://api.elchocrud.pro/api/v1/93ef89e5e24ca8d0c723e730fcbbf6ba/edit_monitors_new";
+// "https://api.elchocrud.pro/api/v1/238bd97b8694c28f5621101addb1778b/newmonitor";
 const HomePage = () => {
   const [data, setData] = useState([]);
   const [modalOpen, setModalOpen] = useState(false);
